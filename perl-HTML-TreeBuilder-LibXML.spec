@@ -1,15 +1,15 @@
 %define upstream_name    HTML-TreeBuilder-LibXML
-%define upstream_version 0.12
+%define upstream_version 0.23
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%perl_convert_version 0.23
+Release:	1
 
 Summary:	HTML::Element compatible API for HTML::TreeBuilder::LibXML
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstream_version}.tar.xz
+Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-TreeBuilder-LibXML-0.23.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -56,4 +56,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 + Revision: 612977
 - Bumped the rel to rebuild
 - import perl-HTML-TreeBuilder-LibXML
+
 
