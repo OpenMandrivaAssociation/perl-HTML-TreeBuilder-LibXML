@@ -17,6 +17,7 @@ BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Filter::Util::Call)
 BuildRequires:	perl(HTML::TreeBuilder::XPath)
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Test::Exception)
 BuildRequires:	perl(XML::LibXML)
 BuildArch:	noarch
 
