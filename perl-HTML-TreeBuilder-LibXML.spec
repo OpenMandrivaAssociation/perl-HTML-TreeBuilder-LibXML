@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	HTML::Element compatible API for HTML::TreeBuilder::LibXML
 License:	GPL+ or Artistic
