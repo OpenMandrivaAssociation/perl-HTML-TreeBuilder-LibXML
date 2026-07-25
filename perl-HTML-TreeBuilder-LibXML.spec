@@ -1,15 +1,15 @@
 %define upstream_name    HTML-TreeBuilder-LibXML
-%define upstream_version 0.23
+%define upstream_version 0.28
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	HTML::Element compatible API for HTML::TreeBuilder::LibXML
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-TreeBuilder-LibXML-%{upstream_version}.tar.gz
+Url:		https://github.com/tokuhirom/HTML-TreeBuilder-LibXML
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAVECROSS/HTML-TreeBuilder-LibXML-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires: perl(Module::Build)
