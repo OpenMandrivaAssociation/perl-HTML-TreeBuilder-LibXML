@@ -1,15 +1,13 @@
 %define upstream_name    HTML-TreeBuilder-LibXML
-%define upstream_version 0.28
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.28
+Release:	2
 
 Summary:	HTML::Element compatible API for HTML::TreeBuilder::LibXML
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/tokuhirom/HTML-TreeBuilder-LibXML
-Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAVECROSS/HTML-TreeBuilder-LibXML-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAVECROSS/HTML-TreeBuilder-LibXML-%{version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires: perl(Module::Build)
@@ -32,7 +30,7 @@ This module doesn't implement all of HTML::TreeBuilder and HTML::Element
 APIs, but eough methods are defined so modules like Web::Scraper work.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Build.PL installdirs=vendor
